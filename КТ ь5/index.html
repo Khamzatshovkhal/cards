@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="card">
+        <form action="">
+            <div>
+                <label for="" class="label-card-number">Номер карты:</label>
+                <input type="text" name="" id="card-number" class="card-number" placeholder="0000 0000 0000 0000" maxlength="19">
+
+                <label for="" class="label-card-holder">Держатель карты:</label>
+                <input type="text" name="" id="card-holder" class="card-holder" placeholder="Иванов Иван" maxlength="30">
+
+                <label for="expiry-date" class="label-expire">Дата окончания карты:</label>
+                <input type="text" name="" id="expiry-date" class="expiry-date" placeholder="MM/YY">
+
+                <label for="" class="label-card-cvv">CVV:</label>
+                <input type="number" name="" id="card-cvv" class="card-cvv" placeholder="XXX"  maxlength="3">
+
+                <div class="div-btn"><button type="submit" class="btn-sumbit">Отправить</button></div>
+            </div>
+
+            <div class="card-info">
+                <!-- <img src="./img/msg6818509113-102096.jpg" alt="" width="500px"> -->
+                <div>
+                    <div class="card-number-div">0000 0000 0000 0000</div>
+                    <div class="card-holder-div">Иванов Иван</div>
+                </div>
+
+                <div>
+                    <div class="expiry-date-div">MM/YY</div>
+                    <div class="card-cvv-div">CVV</div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
